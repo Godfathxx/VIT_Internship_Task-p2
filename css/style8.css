@@ -1,1 +1,175 @@
+html,
+body {
+  overflow-x: hidden;
+}
 
+.top-bar {
+  position: relative;
+  height: 90px;
+  background: #fdbe33;
+}
+
+.top-bar .logo h1 {
+  margin: 0;
+  color: #030f27;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.top-bar .top-bar-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.top-bar .top-bar-icon {
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+}
+
+.top-bar .top-bar-text h3 {
+  margin: 0 0 5px 0;
+  color: #030f27;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.top-bar .top-bar-text p {
+  margin: 0;
+  color: #030f27;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+@media (min-width: 992px) {
+  .top-bar {
+    padding: 0 60px;
+  }
+}
+@media (max-width: 991.98px) {
+  .top-bar .logo {
+    text-align: center;
+  }
+}
+
+.image-container {
+  width: 100%;
+  max-height: calc(100vh - 90px);
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(3, 15, 39, 0);
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  text-align: center;
+  max-width: 80%;
+  border-radius: 10px;
+  font-size: 3vw;
+}
+
+.centered-text h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 3.5vw;
+  margin-bottom: 20px;
+}
+
+.centered-text p {
+  font-size: 2vw;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .centered-text {
+    font-size: 6vw;
+  }
+
+  .centered-text h1 {
+    font-size: 7vw;
+  }
+
+  .centered-text p {
+    font-size: 4vw;
+  }
+}
+
+.custom-navbar {
+  background-color: #030f27;
+  border-left: 60px solid #fdbe33;
+  border-right: 60px solid #fdbe33;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fdbe33;
+}
+
+.btn-primary {
+  background-color: #030f27;
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #fdbe33;
+  border-color: #030f27;
+  color: #030f27;
+}
+
+.dropdown-menu {
+  background-color: #030f27;
+  color: #fff;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.card-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.blue-bg {
+  background-color: #030f27;
+  font-size: 72px;
+  color: #fdbe33;
+  font-weight: 600;
+  padding: 30px;
+}
+
+.yellow-bg {
+  background-color: #fdbe33;
+  font-size: 72px;
+  color: #030f27;
+  font-weight: 600;
+  padding: 30px;
+}

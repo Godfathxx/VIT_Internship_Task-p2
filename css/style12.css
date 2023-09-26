@@ -1,0 +1,62 @@
+.container {
+  background-color: #e3e1e1;
+  max-width: 600px;
+  height: auto;
+  padding: 20px;
+}
+.form-table {
+  display: table;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form-table-row {
+  display: table-row;
+}
+
+.form-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.form-table-cell label {
+  text-align: left;
+}
+
+.narrow-column {
+  width: 15%;
+}
+
+.wide-column {
+  width: 85%;
+}
+
+.input-group-text {
+  background-color: #e3e1e1;
+  border-right: 0.5px solid rgb(114, 112, 112);
+}
+
+.input-group {
+  border: 0.5px solid black;
+  border-radius: 4px;
+}
+
+#submitBtn {
+  color: #ffffff;
+  background-color: red;
+  width: 100%;
+}
+
+#submitBtn:hover {
+  background-color: #fa3c68;
+  color: #ffffff;
+}
+
+.error {
+  color: red;
+}
+
+.form-control.error-input {
+  border-color: red;
+}

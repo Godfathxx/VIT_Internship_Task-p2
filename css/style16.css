@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("../assets/beautiful-color-gradients-backgrounds-158-angel-care.png");
+  background-size: cover;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: rgb(7, 7, 159);
+  text-align: center;
+}
+
+form {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  background-color: red;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 27px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+  background-color: #ff0000;
+}
+
+.login-link {
+  text-align: right;
+}
+
+.error {
+  color: red;
+  display: none;
+}
+
+.error-message {
+  color: red;
+  display: inline-block;
+  margin-left: 5px;
+}
+.narrow-select {
+  width: 50%;
+}
