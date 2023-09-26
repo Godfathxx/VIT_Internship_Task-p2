@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task 5</title>
+    <link rel="stylesheet" type="text/css" href="css/style16.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+
+    <form>
+      <table>
+        <tr>
+          <td>First Name:</td>
+          <td class="input-container">
+            <input type="text" name="firstname" required />
+            <span class="error" id="firstnameError">POOR</span>
+          </td>
+        </tr>
+        <tr>
+          <td>Last Name:</td>
+          <td class="input-container">
+            <input type="text" name="lastname" required />
+            <span class="error" id="lastnameError">POOR</span>
+          </td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td class="input-container">
+            <input type="email" name="email" required />
+            <span class="error" id="emailError">POOR</span>
+          </td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td class="input-container">
+            <input type="password" name="password" required />
+            <span class="error" id="passwordError">POOR</span>
+          </td>
+        </tr>
+        <tr>
+          <td>Re-enter Password:</td>
+          <td class="input-container">
+            <input type="password" name="repassword" required />
+            <span class="error" id="repasswordError">POOR</span>
+          </td>
+        </tr>
+        <tr>
+          <td>Gender:</td>
+          <td>
+            <input type="radio" name="gender" value="male" id="male" /><label
+              for="male"
+              >Male</label
+            >
+            <input
+              type="radio"
+              name="gender"
+              value="female"
+              id="female"
+            /><label for="female">Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Age:</td>
+          <td class="input-container">
+            <input type="number" name="age" required />
+            <span class="error" id="ageError">POOR</span>
+          </td>
+        </tr>
+        <tr>
+          <td>Phone Number:</td>
+          <td class="input-container">
+            <input type="tel" name="phone" required />
+            <span class="error" id="phoneError">POOR</span>
+          </td>
+        </tr>
+        <tr>
+          <td>Address:</td>
+          <td class="input-container">
+            <textarea name="address" rows="4" cols="30" required></textarea>
+            <span class="error" id="addressError">POOR</span>
+          </td>
+        </tr>
+        <tr>
+          <td>State:</td>
+          <td class="input-container">
+            <input type="text" name="state" required />
+            <span class="error" id="stateError">POOR</span>
+          </td>
+        </tr>
+        <tr>
+          <td>Country:</td>
+          <td>
+            <select name="country" required class="narrow-select">
+              <option value="USA">USA</option>
+              <option value="Canada">Canada</option>
+              <option value="UK">UK</option>
+              <option value="India">India</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Languages known:</td>
+          <td>
+            <input
+              type="checkbox"
+              name="languages"
+              value="English"
+              id="english"
+            /><label for="english">English</label>
+            <input
+              type="checkbox"
+              name="languages"
+              value="Kannada"
+              id="kannada"
+            /><label for="kannada">Kannada</label>
+            <input
+              type="checkbox"
+              name="languages"
+              value="Hindi"
+              id="hindi"
+            /><label for="hindi">Hindi</label>
+            <input
+              type="checkbox"
+              name="languages"
+              value="Telugu"
+              id="telugu"
+            /><label for="telugu">Telugu</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="checkbox" name="declaration" required /><label
+              for="declaration"
+              >I hereby declare all the given details are true</label
+            >
+          </td>
+        </tr>
+      </table>
+      <br />
+      <div class="login-link">
+        Login to
+        <a href="https://www.ethnus.com/" target="_blank">Ethnus</a> website
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Register" id="registerBtn" />
+      </div>
+    </form>
+    <script src="script/script10.js"></script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 1 Bootstrap</title>
+    <!-- Include Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Custom CSS */
+      .navbar-top {
+        background-color: rgb(
+          4,
+          161,
+          213
+        ); /* Change background color to light blue */
+      }
+      .navbar-top .navbar-text {
+        color: rgb(0, 0, 0);
+        flex-grow: 1; /* Allow the text to expand and take up space in the middle */
+        text-align: center; /* Center the text */
+      }
+      .navbar-bottom {
+        background-color: grey;
+      }
+      .navbar-bottom .nav-link {
+        color: white;
+      }
+      .side-container {
+        background-color: #4b4b4b; /* background color */
+        color: white; /* Text color */
+        padding: 5px; /* Add padding for better visibility */
+        height: 100vh; /* Set height to 100% of the viewport height */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .main-container {
+        display: flex;
+        padding: 5px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%; /* Ensure the container takes up the full height of the column */
+        }
+
+    </style>
+  </head>
+  <body>
+    <!-- Top Navbar -->
+    <nav class="navbar navbar-top">
+      <!-- Update background color class -->
+      <div class="container-fluid">
+        <span class="navbar-text h4">Ethnus Layout</span>
+      </div>
+    </nav>
+
+    <!-- Bottom Navbar -->
+    <nav class="navbar navbar-bottom">
+      <div class="container-fluid">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">MENU</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+        </ul>
+        <ul class="nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">SIGN UP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">LOGIN</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Content Containers (9:1 ratio) -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-9 main-container">
+          <!-- Content for the 9:1 container -->
+          <p>Write your Content here</p>
+        </div>
+        <div class="col-md-3 side-container">
+          <!-- Apply the custom CSS class here -->
+          <!-- Content for the 9:1 container -->
+          <p>This is Side Content</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

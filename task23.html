@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task 5 JS</title>
+    <link rel="stylesheet" type="text/css" href="css/style15.css" />
+  </head>
+  <body>
+    <h1>Javascript Task 5</h1>
+    <form action="process_form.php" method="post" id="myForm">
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        class="form-control"
+        id="name"
+        name="name"
+        placeholder="Name"
+      />
+      <span class="error" id="nameError"></span><br /><br />
+
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        class="form-control"
+        id="email"
+        name="email"
+        placeholder="Email"
+      />
+      <span class="error" id="emailError"></span><br /><br />
+
+      <label for="website">Website:</label>
+      <input
+        type="url"
+        class="form-control"
+        id="website"
+        name="website"
+        placeholder="Website"
+      />
+      <span class="error" id="websiteError"></span><br /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea
+        id="message"
+        class="form-control"
+        name="message"
+        rows="4"
+        cols="50"
+        placeholder="Message"
+      ></textarea>
+      <span class="error" id="messageError"></span><br /><br />
+
+      <input type="submit" value="Submit" class="form-control" />
+    </form>
+    <script src="script/script7.js"></script>
+  </body>
+</html>
